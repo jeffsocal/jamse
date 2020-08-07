@@ -1,0 +1,28 @@
+# exlcude other things in the ini path, and all log files
+/ini/*
+/log/*
+/dat/fasta/*
+/dat/test/*
+/dat/unimod/*
+
+# include the site's config file
+!/ini/config.ini
+!/ini/molecular.ini
+!/ini/sphinx*
+!/dat/unimod/unimod_tables.csv
+
+# exclude composer stuff
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+composer.phar
+/vendor/
+
+# exclude ide stuff
+.buildpath
+.settings
+.project
+.vscode
+
+
+.Rproj.user

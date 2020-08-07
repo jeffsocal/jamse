@@ -1,0 +1,18 @@
+SET @exp = "yeast_gs";
+
+DELETE from jvln.psm_alts
+	where scan_pk in (SELECT scans.pk FROM jvln.files, jvln.scans, jvln.experiments where jvln.scans.file_pk = jvln.files.pk AND jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);
+DELETE from jvln.validations
+	where psm_pk in (SELECT psms.pk FROM jvln.files, jvln.scans, jvln.psms, jvln.experiments where jvln.scans.pk = jvln.psms.scan_pk AND jvln.scans.file_pk = jvln.files.pk AND jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);
+DELETE from jvln.psms
+	where scan_pk in (SELECT scans.pk FROM jvln.files, jvln.scans, jvln.experiments where jvln.scans.file_pk = jvln.files.pk AND jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);
+DELETE from jvln.metrics
+	where file_pk in (SELECT files.pk FROM jvln.files, jvln.experiments where jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);
+
+
+DELETE from jvln.scans
+	where file_pk in (SELECT files.pk FROM jvln.files, jvln.experiments where jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);
+DELETE from jvln.experiments 
+	where file_pk in (SELECT files.pk FROM jvln.files, jvln.experiments where jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);
+DELETE from jvln.files
+	where pk in (SELECT files.pk FROM jvln.files, jvln.experiments where jvln.files.pk = jvln.experiments.file_pk and experiment_name = @exp);

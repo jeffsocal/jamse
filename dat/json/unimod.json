@@ -1,0 +1,358 @@
+{
+	"none": {
+		"code_name": "none",
+		"full_name": "none",
+		"record_id": 0,
+		"mass_monoiso": 0,
+		"reported_sites": "na",
+		"applied_sites": "na",
+		"max_concurrentrent": 0
+	},
+	"acetyl": {
+		"code_name": "acetyl",
+		"full_name": "acetylation",
+		"mass_monoiso": 42.010565,
+		"record_id": 1,
+		"reported_sites": [
+			"T",
+			"N-TERM",
+			"S",
+			"C",
+			"K",
+			"Y",
+			"H",
+			"R"
+		],
+		"applied_sites": [
+			"N-TERM",
+			"K"
+		],
+		"max_concurrent": 2
+	},
+	"carbamidomethyl": {
+		"code_name": "carbamidomethyl",
+		"full_name": "iodoacetamide derivative",
+		"mass_monoiso": 57.021464,
+		"record_id": 4,
+		"reported_sites": [
+			"Y",
+			"T",
+			"S",
+			"E",
+			"D",
+			"H",
+			"N-TERM",
+			"K",
+			"C",
+			"U",
+			"M"
+		],
+		"applied_sites": [
+			"C"
+		],
+		"max_concurrent": 5
+	},
+	"carbamyl": {
+		"code_name": "carbamyl",
+		"full_name": "carbamylation",
+		"mass_monoiso": 43.005814,
+		"record_id": 5,
+		"reported_sites": [
+			"Y",
+			"T",
+			"S",
+			"M",
+			"C",
+			"R",
+			"N-TERM",
+			"K"
+		],
+		"applied_sites": [
+			"N-TERM",
+			"K"
+		],
+		"max_concurrent": 2
+	},
+	"carboxymethyl": {
+		"code_name": "carboxymethyl",
+		"full_name": "iodoacetic acid derivative",
+		"mass_monoiso": 58.005479,
+		"record_id": 6,
+		"reported_sites": [
+			"N-TERM",
+			"K",
+			"C",
+			"W",
+			"U"
+		],
+		"applied_sites": [
+			"C",
+			"W"
+		],
+		"max_concurrent": 5
+	},
+	"deamidation": {
+		"code_name": "deamidation",
+		"full_name": "deamidation",
+		"mass_monoiso": 0.984016,
+		"record_id": 7,
+		"reported_sites": [
+			"Q",
+			"R",
+			"N",
+			"F"
+		],
+		"applied_sites": [
+			"R"
+		],
+		"max_concurrent": 5
+	},
+	"phospho": {
+		"code_name": "phospho",
+		"full_name": "phosphorylation",
+		"mass_monoiso": 79.966331,
+		"record_id": 21,
+		"reported_sites": [
+			"E",
+			"R",
+			"K",
+			"H",
+			"C",
+			"D",
+			"Y",
+			"T",
+			"S"
+		],
+		"applied_sites": [
+			"S",
+			"T"
+		],
+		"max_concurrent": 2
+	},
+	"pyro-glu-e": {
+		"code_name": "pyro-glu-e",
+		"full_name": "pyro-glu from e",
+		"mass_monoiso": -18.010565,
+		"record_id": 27,
+		"reported_sites": [
+			"E"
+		],
+		"applied_sites": [
+			"E"
+		],
+		"max_concurrent": 5
+	},
+	"pyro-glu-q": {
+		"code_name": "pyro-glu-q",
+		"full_name": "pyro-glu from q",
+		"mass_monoiso": -17.026549,
+		"record_id": 28,
+		"reported_sites": [
+			"Q"
+		],
+		"applied_sites": [
+			"Q"
+		],
+		"max_concurrent": 5
+	},
+	"methyl": {
+		"code_name": "methyl",
+		"full_name": "methylation",
+		"mass_monoiso": 14.01565,
+		"record_id": 34,
+		"reported_sites": [
+			"E",
+			"D",
+			"C-TERM",
+			"N-TERM",
+			"L",
+			"I",
+			"R",
+			"Q",
+			"N",
+			"K",
+			"H",
+			"C",
+			"S",
+			"T"
+		],
+		"applied_sites": [
+			"C"
+		],
+		"max_concurrent": 5
+	},
+	"hydroxylation": {
+		"code_name": "hydroxylation",
+		"full_name": "oxidation or hydroxylation",
+		"mass_monoiso": 15.994915,
+		"record_id": 35,
+		"reported_sites": [
+			"T",
+			"E",
+			"S",
+			"Q",
+			"L",
+			"I",
+			"U",
+			"W",
+			"C",
+			"H",
+			"V",
+			"R",
+			"M",
+			"Y",
+			"F",
+			"P",
+			"N",
+			"K",
+			"D"
+		],
+		"applied_sites": [
+			"M"
+		],
+		"max_concurrent": 5
+	},
+	"glygly": {
+		"code_name": "glygly",
+		"full_name": "ubiquitinylation residue",
+		"mass_monoiso": 114.042927,
+		"record_id": 121,
+		"reported_sites": [
+			"N-TERM",
+			"C",
+			"K"
+		],
+		"applied_sites": [
+			"N-TERM",
+			"C",
+			"K"
+		],
+		"max_concurrent": 1
+	},
+	"biotin": {
+		"code_name": "biotin",
+		"full_name": "biotinylation ptm",
+		"mass_monoiso": 226.077598,
+		"record_id": 3,
+		"reported_sites": [
+			"K"
+		],
+		"applied_sites": [
+			"K"
+		],
+		"max_concurrent": 2
+	},
+	"hexose": {
+		"code_name": "hexose",
+		"full_name": "o-linked glycosylation",
+		"mass_monoiso": 162.052824,
+		"record_id": 41,
+		"reported_sites": [
+			"N",
+			"S",
+			"T"
+		],
+		"applied_sites": [
+			"N",
+			"S",
+			"T"
+		],
+		"max_concurrent": 1
+	},
+	"glycation": {
+		"code_name": "glycation",
+		"full_name": "glycosylation",
+		"mass_monoiso": 54.031694,
+		"record_id": 41,
+		"reported_sites": [
+			"K",
+			"R",
+			"N-TERM"
+		],
+		"applied_sites": [
+			"K",
+			"R",
+			"N-TERM"
+		],
+		"max_concurrent": 1
+	},
+	"lipoyl": {
+		"code_name": "lipoyl",
+		"full_name": "lipoyl synthase",
+		"mass_monoiso": 188.032956,
+		"record_id": 42,
+		"reported_sites": [
+			"K"
+		],
+		"applied_sites": [
+			"K"
+		],
+		"max_concurrent": 1
+	},
+	"hexnac": {
+		"code_name": "hexnac",
+		"full_name": "n-acetylhexosamine n-linked glycosylation",
+		"mass_monoiso": 203.079373,
+		"record_id": 43,
+		"reported_sites": [
+			"N",
+			"S",
+			"T",
+			"C"
+		],
+		"applied_sites": [
+			"N",
+			"S",
+			"T",
+			"C"
+		],
+		"max_concurrent": 1
+	},
+	"farnesyl": {
+		"code_name": "farnesyl",
+		"full_name": "farnesylation",
+		"mass_monoiso": 204.187801,
+		"record_id": 44,
+		"reported_sites": [
+			"C"
+		],
+		"applied_sites": [
+			"C"
+		],
+		"max_concurrent": 1
+	},
+	"palmitoyl": {
+		"code_name": "palmitoyl",
+		"full_name": "palmitoylation",
+		"mass_monoiso": 238.229666,
+		"record_id": 47,
+		"reported_sites": [
+			"N-Term",
+			"C",
+			"K",
+			"S",
+			"T"
+		],
+		"applied_sites": [
+			"C"
+		],
+		"max_concurrent": 1
+	},
+	"myristoyl": {
+		"code_name": "myristoyl",
+		"full_name": "myristoylation",
+		"mass_monoiso": 210.198366,
+		"record_id": 45,
+		"reported_sites": [
+			"G",
+			"K",
+			"C"
+		],
+		"applied_sites": [
+			"G",
+			"K",
+			"C"
+		],
+		"max_concurrent": 1
+	}
+}
